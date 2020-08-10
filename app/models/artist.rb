@@ -1,6 +1,7 @@
 class Artist
 
-  attr_reader :name, :years_experience
+  attr_accessor :create_painting
+  attr_reader :name, :years_experience, :galleries, :paintings, :cities
 
   @@all = []
 
